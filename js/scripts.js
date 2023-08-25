@@ -1,5 +1,4 @@
 function newItem() {
-    let list = $('#list');
     let inputValue = $('#input').val();
     let li = $('<li></li>');
     li.append(inputValue);
